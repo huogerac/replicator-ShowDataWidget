@@ -1,0 +1,12 @@
+{
+  "name": "replicator-ShowDataWidget",
+  "version": "0.1.0",
+  "description": "Display input data",
+  "homepage": "",
+  "authors": [
+    "Roger Camargo"
+  ],
+  "main": "main.js",
+  "keywords": [],
+  "license": "MIT"
+}
