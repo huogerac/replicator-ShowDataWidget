@@ -1,9 +1,62 @@
 <!-- Base feeds for a the Graph widget -->
 <template id="custom-widget-properties">
+
   <div id="widget-graph">
     <div class="ui inverted form">
       <div class="grouped fields">
+
+        <div class="inline field">
+          <label>Title</label>
+          <div class="ui inverted transparent left icon input drag-target">
+            <input type="text" id="txtTitle" style="color:white;" placeholder="Title" value="{{_txtTitle}}">
+          </div>
+        </div>
+        
+        <div class="inline field">
+          <label>Icon</label>
+          <div class="ui inverted transparent left icon input drag-target">
+            <select id="txtIcon" data-show-icon="true">
+              <option value="adjust">adjust</option>
+              <option value="area-chart">area-chart</option>
+              <option value="clock-o">adjust</option>
+              <option value="coffee">coffee</option>
+              <option value="envelope-o">envelope-o</option>
+              <option value="gamepad">gamepad</option>
+              <option value="heart-o">heart-o</option>
+              <option value="lightbulb-o">lightbulb-o</option>
+              <option value="snowflake-o">snowflake-o</option>
+              <option value="sun-o">sun-o</option>
+              <option value="tint">tint</option>
+              <option value="female">female</option>
+              <option value="flask">flask</option>
+              <option value="heartbeat">heartbeat</option>
+              <option value="bolt">bolt</option>
+              <option value="gear">gear</option>
+              <option value="globe">globe</option>
+              <option value="map-pin">map-pin</option>
+              <option value="microphone">microphone</option>
+              <option value="paper-plane-o">paper-plane-o</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="inline field">
+          <label>Color</label>
+          <div class="ui inverted transparent left icon input drag-target">
+            <input type="color" id="txtColor" value="{{_txtColor}}" style="width: 100px;">
+          </div>
+        </div>
+
+        <div class="inline field">
+          <label>Background</label>
+          <div class="ui inverted transparent left icon input drag-target">
+            <input type="color" id="txtBackground" value="{{_txtBackground}}" style="width: 100px;">
+          </div>
+        </div>
+
       </div>
+
     </div>
   </div>
+
 </template>

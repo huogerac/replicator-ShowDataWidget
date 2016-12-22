@@ -1,0 +1,20 @@
+
+.widgetContainer {
+  width: 418px;
+  text-align: center;
+  background-color: #eb5e55;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.widgetTitle {
+  padding-top: 10px;
+  padding-top: 50px;
+}
+
+.graph.widget-container{
+  width: 378px;
+  height: 264px;
+  background-color: transparent;
+  padding: 20px;
+}
